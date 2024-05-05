@@ -1,0 +1,32 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.title {
+  background-color: blue;
+}
+
+.list {
+  transition: transform 0.3s ease;
+}
+
+.list:hover {
+  transform: scale(1.05);
+}
+
+.trash-can {
+  transition: transform 0.3s ease;
+}
+
+.trash-can:hover {
+  /* transform: scale(1.05); */
+  transform: translateY(-10px);
+}
